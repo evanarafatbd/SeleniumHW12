@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="Amazon Test Automation Script" parallel="false">
+
+
+    <parameter name="url" value="https://www.amazon.com/"></parameter>
+    <test name = "Amazon Home">
+
+        <classes>
+
+
+            <class name="TestingAmazon.SearchTitle" />
+
+            <class name="TestingAmazon.TestingItems" />
+
+           
+
+        </classes>
+
+    </test>
+
+</suite>
